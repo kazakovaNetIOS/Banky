@@ -1,2 +1,1 @@
 # Banky
-# Banky
