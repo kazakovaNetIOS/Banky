@@ -12,6 +12,10 @@
 		FF0A1C1B22FC56DD007FE4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0A1C1922FC56DD007FE4E2 /* Main.storyboard */; };
 		FF0A1C1D22FC56E0007FE4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0A1C1C22FC56E0007FE4E2 /* Assets.xcassets */; };
 		FF0A1C2022FC56E0007FE4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0A1C1E22FC56E0007FE4E2 /* LaunchScreen.storyboard */; };
+		FF0A1C2822FC5871007FE4E2 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A1C2722FC5871007FE4E2 /* Transaction.swift */; };
+		FF0A1C2A22FC58CE007FE4E2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A1C2922FC58CE007FE4E2 /* Account.swift */; };
+		FF0A1C2C22FC5952007FE4E2 /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A1C2B22FC5952007FE4E2 /* StorageController.swift */; };
+		FF0A1C2E22FC5A0E007FE4E2 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A1C2D22FC5A0E007FE4E2 /* StateController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FF0A1C1C22FC56E0007FE4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0A1C1F22FC56E0007FE4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0A1C2122FC56E0007FE4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0A1C2722FC5871007FE4E2 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		FF0A1C2922FC58CE007FE4E2 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		FF0A1C2B22FC5952007FE4E2 /* StorageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
+		FF0A1C2D22FC5A0E007FE4E2 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				FF0A1C1C22FC56E0007FE4E2 /* Assets.xcassets */,
 				FF0A1C1E22FC56E0007FE4E2 /* LaunchScreen.storyboard */,
 				FF0A1C2122FC56E0007FE4E2 /* Info.plist */,
+				FF0A1C2722FC5871007FE4E2 /* Transaction.swift */,
+				FF0A1C2922FC58CE007FE4E2 /* Account.swift */,
+				FF0A1C2B22FC5952007FE4E2 /* StorageController.swift */,
+				FF0A1C2D22FC5A0E007FE4E2 /* StateController.swift */,
 			);
 			path = Banky;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0A1C1822FC56DD007FE4E2 /* ViewController.swift in Sources */,
+				FF0A1C2E22FC5A0E007FE4E2 /* StateController.swift in Sources */,
+				FF0A1C2A22FC58CE007FE4E2 /* Account.swift in Sources */,
 				FF0A1C1622FC56DD007FE4E2 /* AppDelegate.swift in Sources */,
+				FF0A1C2822FC5871007FE4E2 /* Transaction.swift in Sources */,
+				FF0A1C2C22FC5952007FE4E2 /* StorageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
